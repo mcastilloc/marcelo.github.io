@@ -1,1 +1,122 @@
-.
+/* Fuente tipo DevOps */
+body {
+    margin: 0;
+    font-family: "Fira Code", monospace;
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+/* Header */
+header {
+    background: #0d1117;
+    padding: 20px 0;
+    border-bottom: 1px solid #1f2933;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #58a6ff;
+    font-size: 1.4rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #c9d1d9;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #58a6ff;
+}
+
+/* Hero */
+#hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(180deg, #0d1117, #161b22);
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    color: #8b949e;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #2384f4;
+    padding: 12px 22px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1f6feb;
+}
+
+/* Secciones */
+.section {
+    padding: 60px 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.section h2 {
+    color: #58a6ff;
+    margin-bottom: 20px;
+}
+
+/* Tarjetas */
+.card {
+    background: #161b22;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #2384f4;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #58a6ff;
+}
+
+.card p {
+    color: #8b949e;
+}
+
+.card-link {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d1117;
+    color: #8b949e;
+    border-top: 1px solid #1f2933;
+}
