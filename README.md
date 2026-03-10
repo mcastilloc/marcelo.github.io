@@ -7,5 +7,5 @@ Ingeniero de plataforma / SRE con experiencia en automatización, Linux y conten
 
 ## Contacto
 
-- GitHub: https://github.com/mcastilloc
+- GitHub: https://github.com/mcastilloc/
 - LinkedIn: (https://www.linkedin.com/in/marcelocastillocastillo/)
