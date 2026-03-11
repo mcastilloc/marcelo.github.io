@@ -2,232 +2,124 @@
 <html lang="es">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Marcelo Castillo | DevOps / SRE</title>
-
-    <link rel="stylesheet" href="./css/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcelo Castillo | Portafolio TI</title>
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <header>
+<header class="hero">
+<h1>Marcelo Castillo</h1>
+<p>Profesional TI | Linux | DevOps | Backend</p>
 
-        <div class="container nav">
+<div class="buttons">
+<a href="#proyectos">Ver proyectos</a>
+<a href="#contacto">Contacto</a>
+</div>
+</header>
 
-            <h2 class="logo">Marcelo Castillo</h2>
+<nav class="navbar">
+<a href="#sobre">Sobre mí</a>
+<a href="#habilidades">Habilidades</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#formacion">Formación</a>
+<a href="#contacto">Contacto</a>
+</nav>
 
-            <nav>
-                <a href="#about">Sobre mí</a>
-                <a href="#skills">Tecnologías</a>
-                <a href="#projects">Laboratorios</a>
-                <a href="#education">Formación</a>
-                <a href="#contact">Contacto</a>
-            </nav>
+<section id="sobre">
+<h2>Sobre mí</h2>
 
-        </div>
+<p>
+Profesional del área TI con experiencia en administración de sistemas y aprendizaje
+continuo en desarrollo de software. Me interesa especialmente el área de DevOps,
+automatización de infraestructura y desarrollo backend.
+</p>
 
-    </header>
+</section>
 
+<section id="habilidades">
 
-    <section class="hero">
+<h2>Habilidades Técnicas</h2>
 
-        <div class="container hero-content">
+<div class="grid">
 
-            <h1>DevOps / Site Reliability Engineer</h1>
+<div class="card">Python</div>
+<div class="card">Django</div>
+<div class="card">PostgreSQL</div>
+<div class="card">Linux</div>
+<div class="card">Docker</div>
+<div class="card">Git</div>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
 
-            <p>
-                Profesional TI con más de 15 años de experiencia trabajando con sistemas, infraestructura y
-                automatización. Actualmente enfocado en ingeniería de plataformas, contenedores y confiabilidad de
-                sistemas.
-            </p>
+</div>
 
-            <a href="https://github.com/mcastilloc/" class="btn">Ver GitHub</a>
+</section>
 
-        </div>
+<section id="proyectos">
 
-    </section>
+<h2>Proyectos</h2>
 
+<div class="project-grid">
 
-    <section id="about" class="section">
+<div class="project">
+<h3>Laboratorio PostgreSQL HA</h3>
+<p>
+Laboratorio con nodo principal y replicas standby
+para probar replicación y failover automático.
+</p>
+</div>
 
-        <div class="container">
+<div class="project">
+<h3>Aplicación Web Django</h3>
+<p>
+Aplicación web con operaciones CRUD utilizando
+Django y PostgreSQL.
+</p>
+</div>
 
-            <h2>Sobre mí</h2>
+<div class="project">
+<h3>Automatización Linux</h3>
+<p>
+Scripts de automatización para administración
+de servidores Linux.
+</p>
+</div>
 
-            <p>
-                Me especializo en construir laboratorios técnicos y plataformas reproducibles para experimentar con
-                prácticas modernas de DevOps y SRE.
-            </p>
+</div>
 
-            <p>
-                Mi enfoque principal es la automatización, la alta disponibilidad y la construcción de infraestructuras
-                resilientes utilizando herramientas open source.
-            </p>
+</section>
 
-        </div>
+<section id="formacion">
 
-    </section>
+<h2>Formación</h2>
 
+<ul>
+<li>Bootcamp Desarrollo TI</li>
+<li>Linux para DevOps (36 horas)</li>
+<li>Desarrollo web con Python y Django</li>
+<li>Bases de datos SQL</li>
+</ul>
 
-    <section id="skills" class="section dark">
+</section>
 
-        <div class="container">
+<section id="contacto">
 
-            <h2>Tecnologías</h2>
+<h2>Contacto</h2>
 
-            <div class="skills-grid">
+<p>Email: contacto@email.com</p>
+<p>GitHub: github.com/usuario</p>
+<p>LinkedIn: linkedin.com/in/usuario</p>
 
-                <span>Linux</span>
-                <span>Docker</span>
-                <span>Python</span>
-                <span>Django</span>
-                <span>PostgreSQL</span>
-                <span>Git</span>
-                <span>CI/CD</span>
-                <span>Bash</span>
+</section>
 
-            </div>
+<footer>
 
-        </div>
+<p>© 2026 Marcelo Castillo</p>
 
-    </section>
-
-
-    <section id="projects" class="section">
-
-        <div class="container">
-
-            <h2>Laboratorios y Proyectos</h2>
-
-            <div class="card-grid">
-
-                <div class="card">
-
-                    <h3>PostgreSQL Alta Disponibilidad</h3>
-
-                    <p>
-                        Arquitectura con nodo primary y standby con replicación y failover automático para entornos
-                        resilientes.
-                    </p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3>Pipeline CI/CD</h3>
-
-                    <p>
-                        Laboratorio de integración continua y despliegue automatizado para proyectos DevOps.
-                    </p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3>Aplicación Web Django</h3>
-
-                    <p>
-                        Sistema web desarrollado con Django utilizando arquitectura MVT y ORM para gestión de datos.
-                    </p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3>Laboratorios Linux</h3>
-
-                    <p>
-                        Colección de prácticas de administración de sistemas y automatización con scripting.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <section id="education" class="section dark">
-        <div class="container">
-            <h2>Certifications & Programs</h2>
-
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>Oracle Cloud Infrastructure – 2025 Certified Foundations Associate (Oracle)</h3>
-                    <p>
-                       <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=D15AB4D23F44D0BB687A825278D5777953230E6F30D3A6EC27E4BAD8C182F5D8" class="btn">Ver Certificado</a>
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <h3>Alura — ONE Tech Foundation G8 (Data Science) (2025)</h3>
-                    <p>
-                        <a href="https://app.aluracursos.com/program/certificate/ee20bf4b-eef4-4a2f-8dd6-66d406dc49c8" class="btn">Ver Certificado</a>
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <h3>Alura — ONE Tech Advanced (OCI Foundations Path) (2025)</h3>
-                    <p>
-                        <a href="https://app.aluracursos.com/program/certificate/587b81b0-dc5b-42d6-afc3-ed15ad1423d4" class="btn">Ver Certificado</a>
-                    </p>
-                </div>
-                
-                <div class="timeline-item">
-                    <h3>Linux para DevOps (2025)</h3>
-                    <p>
-                        <a href="./certificados/linux-para-devops.png" class="btn">Ver Certificado</a>
-                    </p>
-                </div>
-                
-                <div class="timeline-item">
-                    <h3>Bootcamp GitHub Foundations (2025)</h3>
-                    <p>
-                        Bootcamp orientado a dominar los fundamentos y capacidades avanzadas del ecosistema GitHub, incluyendo colaboración, automatización y seguridad.
-                    </p>
-                    <p>
-                        <a href="./certificados/GitHubFoundations.pdf" class="btn">Ver Certificado</a>
-                    </p>
-                </div>
-               
-               
-            </div>
-        </div>
-    </section>
-
-
-    <section id="contact" class="section">
-
-        <div class="container contact">
-
-            <h2>Contacto</h2>
-
-            <p>
-                Puedes revisar mis proyectos y laboratorios en GitHub.
-            </p>
-
-            <a href="https://github.com/mcastilloc/portfolio-sre/" class="btn">Ir a GitHub</a>
-
-        </div>
-
-    </section>
-
-
-    <footer>
-
-        <p>© 2026 Marcelo Castillo</p>
-
-    </footer>
+</footer>
 
 </body>
-
 </html>
